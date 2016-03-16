@@ -139,4 +139,5 @@ fi
 # 5) And finally...
 #
 
-./configure ${OPTS} --prefix=${TARGET_DIR} && make clean && make -j 16 && make check && make install
+./configure ${OPTS} --prefix=${TARGET_DIR}  --with-boost-libdir=/usr/lib/x86_64-linux-gnu \
+   && make clean && make -j 16 && make check && make install
