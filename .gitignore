@@ -4,6 +4,7 @@
 *.o
 *.lo
 *.la
+*.dirstamp
 
 # Binaries
 supersonic_unittest
@@ -23,6 +24,8 @@ test_expression_infrastructure
 test_expression_templated
 test_expression_vector
 *.dot
+*.log
+*.trs
 
 # Autotools generated files
 Makefile
@@ -38,13 +41,17 @@ libtool
 ltmain.sh
 stamp-h1
 supersonic/supersonic-config.h
+test_regexp_expressions
+test-driver
 
 # Generated M4 macro
 aclocal.m4
+m4/
 
 # Googletest
 gtest/
-
+gmock/
+dependencies/
 # Protobuf generated files
 *.pb.h
 *.pb.cc
